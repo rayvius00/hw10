@@ -1,0 +1,96 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:hsl(30, 38%, 92%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container{
+    background-color: hsl(0, 0%, 100%);
+    width: 650px;
+    height: 400px;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: 300px 350px;
+}
+
+.left img{
+    width: 300px;
+    height: 400px;
+    border-top-left-radius:10px;
+    border-bottom-left-radius: 10px;
+}
+
+.header p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 14px;
+    opacity: 50%;
+}
+
+.title h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size:30px;
+
+}
+
+.title p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    opacity: 50%;
+    font-size: 20px;
+}
+
+.green h2{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size:35px;
+    color: rgb(0, 109, 73);
+}
+
+.light p{
+    opacity: 50%;
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: line-through;
+}
+
+.button button{
+    background-color:rgb(0, 109, 73) ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 8px;
+    border: none;
+    width: 300px;
+    height: 38px;
+    color: white;
+    margin-left: 5px;
+}
+
+.right{
+    padding: 20px;
+    gap: 20px;
+}
+
+.header,.title{
+    margin-bottom: 20px;
+}
+
+.title p{
+   margin-top: 10px;
+}
+
+.price{
+    display: grid;
+    grid-template-columns: 200px 100px;
+    margin-bottom: 20px;
+}
+
+.light p{
+    margin-top: 10px;
+}
